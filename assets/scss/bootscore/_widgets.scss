@@ -8,3 +8,7 @@ Widgets
   list-style: none;
   margin-bottom: 0;
 }
+#sidebar-1 .widget,
+#404-page .widget {
+  @extend mb-4;
+}
