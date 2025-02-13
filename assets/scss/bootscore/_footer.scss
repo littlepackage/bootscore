@@ -23,3 +23,11 @@ body {
 #footer-menu li a {
   padding-left: 0;
 }
+
+.footer-widget {
+  @extend .mb-3;
+}
+
+#footer-info .footer-widget {
+  margin-bottom: 0;
+}
